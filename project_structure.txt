@@ -1,0 +1,15 @@
+fingerprint_otp_system/
+├── data/
+│   ├── datasets/          # Store fingerprint datasets here
+│   ├── users.json        # User database
+│   └── templates.json    # Fingerprint templates
+├── src/
+│   ├── __init__.py
+│   ├── main.py           # Main application
+│   ├── fingerprint.py    # Fingerprint processing
+│   ├── otp.py           # OTP handling
+│   └── gui.py           # GUI components
+├── config/
+│   └── settings.py      # Configuration settings
+├── requirements.txt
+└── README.md 
